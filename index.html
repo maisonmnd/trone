@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1E2150" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Le Trône" />
+    <link rel="apple-touch-icon" href="/trone/assets/icons/trone-192.png" />
+    <link rel="manifest" href="/trone/manifest.trone.webmanifest" />
+    <link rel="icon" type="image/png" href="/trone/assets/monograms/mono-or.png" />
+    <title>Le Trône — Maison MND</title>
+    <!-- ══ LA CARTE DE LIEN — 7 septembre 2026 ═════════════════════════
+         « Quand j'envoie le lien de MND, ça doit se présenter comme celui de
+         Claude » (Yéman) : la carte compacte, vignette à gauche, titre et
+         phrase, pas la grande affiche blanche. WhatsApp ne fait la compacte
+         que si l'image est PETITE (sous ~300 px) — la vignette fait 240 px,
+         et c'est un choix, pas une économie.
+
+         AUCUN DOMAINE EN DUR : og:image et og:url exigent une adresse
+         absolue, et la règle de la Maison interdit d'en écrire une. Les
+         repères https://maisonmnd.github.io/trone/ / https://maisonmnd.github.io/trone/ sont remplacés par
+         build-sites.mjs, qui lit le compte GitHub depuis l'origine du dépôt,
+         comme le fait déjà la publication. En développement ils restent tels
+         quels : personne ne partage localhost. -->
+    <meta name="description" content="L’atelier de la Maison MND. Espace réservé à l’équipe." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Maison MND" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:title" content="Le Trône · Maison MND" />
+    <meta property="og:description" content="L’atelier de la Maison MND. Espace réservé à l’équipe." />
+    <meta property="og:url" content="https://maisonmnd.github.io/trone/" />
+    <meta property="og:image" content="https://maisonmnd.github.io/trone/assets/og/carte-lien.png" />
+    <meta property="og:image:width" content="240" />
+    <meta property="og:image:height" content="240" />
+    <meta name="twitter:card" content="summary" />
+
+    <script type="module" crossorigin src="/trone/assets/trone-C4mWQUUj.js"></script>
+    <link rel="modulepreload" crossorigin href="/trone/assets/identite-DDAUKkAC.js">
+    <link rel="modulepreload" crossorigin href="/trone/assets/geo-B_jb5idr.js">
+    <link rel="modulepreload" crossorigin href="/trone/assets/bridges-B7z3vP6f.js">
+    <link rel="modulepreload" crossorigin href="/trone/assets/abonnements-DPt8V7WS.js">
+    <link rel="modulepreload" crossorigin href="/trone/assets/agenda-IRQiOYBn.js">
+    <link rel="modulepreload" crossorigin href="/trone/assets/asset-C3YTuUEK.js">
+    <link rel="modulepreload" crossorigin href="/trone/assets/components-AtUzSEpU.js">
+    <link rel="stylesheet" crossorigin href="/trone/assets/trone-CKROkkg2.css">
+  </head>
+  <body data-surface="trone">
+    <div id="root"></div>
+  </body>
+</html>
