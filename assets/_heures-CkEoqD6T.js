@@ -1,0 +1,1 @@
+import{cm as n}from"./trone-j9heWeD3.js";const t=["dim","lun","mar","mer","jeu","ven","sam"],u=()=>{const e=n.get()[t[new Date().getDay()]];if(!e)return[void 0,void 0];if(e.closed)return["23:59","00:00"];const o=r=>r.replace(/h/i,":").replace(/^(\d):/,"0$1:");return[o(e.open),o(e.close)]};export{u as h};
