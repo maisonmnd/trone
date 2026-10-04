@@ -21,8 +21,8 @@
      passe JAMAIS par lui : les données ont leur propre file d'attente.
 
    Uniquement la réception des notifications et le clic, pour le reste. */
-const BUILD = "20261004125448";
-const A_GARDER = ["./","assets/Abonnements-DDA0bpcV.js","assets/abonnements-gb875lpe.js","assets/Academie-DgdZviSp.js","assets/Acces-Djpn_p5X.js","assets/actions-qFTIxQGs.js","assets/afaire-B3gmMBuG.js","assets/AFaire-Bl0ZNJ6I.js","assets/Analytics-DBaGJDj6.js","assets/Appels-DmejcGZ9.js","assets/arrivee-pure-DULmgjT7.js","assets/asset-C3YTuUEK.js","assets/bilan-B-bfPYR0.css","assets/bilan-Dh0BAacT.js","assets/BilanMensuel-Ot4TlX2A.js","assets/bilans-CUnhRDc1.js","assets/Branches-DBvbuEJf.js","assets/bridges-CPsDKvgy.js","assets/Caisse-BpnNk4Cw.js","assets/caisse-du-soir-JPKPUCg-.js","assets/Caisses-BgJYZlxS.js","assets/Calendrier-DDBupo-P.js","assets/Carnet-BMteer4L.js","assets/carte-C-XV3gRE.js","assets/carte-CXapndDr.css","assets/CarteModal-iewqt8mp.js","assets/CartesCadeaux-C09MhUTb.js","assets/Catalogue-1lVqrLPD.js","assets/Cercle-WWrQOOMO.js","assets/certificat-BIgsKAOa.css","assets/certificat-CuCEPmAJ.js","assets/certificats-coffre-BSlFbk4T.js","assets/ClotureDuTiroir-C6vPx-E_.css","assets/ClotureDuTiroir-CtPgkcrl.js","assets/Coffre-C6lMeVa7.js","assets/components-D2up-GHM.js","assets/compte-courant-ByzulCEN.js","assets/compte-DE0ioSHN.js","assets/CompteCourant-DVyR1ERW.js","assets/Comptes-Dy7lcnN8.js","assets/Comptoir-Bb6zb3YH.js","assets/consultation-Dgb9KeZx.css","assets/consultation-Dr4RSFxN.js","assets/Consultations-BNvrke6Q.js","assets/consultNotes-DGHBAG5N.js","assets/Conversations-DjjpDFO5.js","assets/cormorant-italique-latin-C-nL33vl.woff2","assets/cormorant-italique-latin-ext-PWzi_-0y.woff2","assets/cormorant-latin-CUoBjw-S.woff2","assets/cormorant-latin-ext-ltf1AbuM.woff2","assets/Creances-CzAxci_G.js","assets/currency-CzN07T4P.js","assets/Customers-cZF0AW6I.js","assets/Dashboard-M_MhpnUw.js","assets/dates-FPuQshMP.js","assets/Demandes-DSJ-5SZI.js","assets/Depenses-DBE17YZV.js","assets/devise-fon-DX3P0bG4.woff2","assets/Encaissements-DgI-a2T0.js","assets/enfants-Dcj_572H.js","assets/Engagements-Cj5S9MhG.css","assets/Engagements-EXpMrnBR.js","assets/equipe-DpPyq6h-.css","assets/Evaluation-bieXm6Pa.js","assets/FacturePrestataire-DLbjlySB.js","assets/Factures-DcaeYHjp.js","assets/Fil-DVt2hJfg.js","assets/finances-CCjqAkCE.css","assets/fournisseurs-BIWOMOFS.js","assets/Fournisseurs-Cjqd0De0.js","assets/foyer-DLUMv6EC.js","assets/HomeRituals-D_iQf0LD.js","assets/html2canvas.esm-QH1iLAAe.js","assets/identite-BGpTjNzF.js","assets/index.es-DVcWqFz0.js","assets/jost-latin-ext-BDUtSsKd.woff2","assets/jost-latin-ObQm3Zd1.woff2","assets/Journal-BUca8HqC.js","assets/jspdf.es.min-DFfFvj69.js","assets/JustePrix-Bd3o3MQs.js","assets/kkiapay-DROCcRi6.js","assets/laboratoire-Ch2eJukM.js","assets/Laboratoire-eE8FHGYr.js","assets/LettresAuDossier-CVYbWlSQ.js","assets/maisons-DZdAeMF9.js","assets/Marketing-D-hMY9OL.js","assets/Marque-DwQfmss-.js","assets/momo-C2ZVfV9J.js","assets/MonMois-C-NB3-rp.js","assets/monograms/mono-argile.png","assets/monograms/mono-copper.png","assets/monograms/mono-indigo-profond.png","assets/monograms/mono-indigo.png","assets/monograms/mono-ivoire.png","assets/monograms/mono-obsidian.png","assets/monograms/mono-or.png","assets/monograms/mono-sable.png","assets/objectifs-BdeQQqqL.js","assets/paliers-BNOph7PH.js","assets/Parametres-DOmU7MKx.js","assets/parcours-uOCW7WPQ.js","assets/Parrainages-BtxvJ_mG.css","assets/Parrainages-DNPqCE8G.js","assets/pdf-DbwVJPm4.js","assets/Personas-Bp81UdWD.js","assets/Personnel-CQ7dm9mT.js","assets/photo-BoJUTCe1.js","assets/pilotage-CV1tnUgC.css","assets/Predictions-BL_xCgyD.js","assets/Prestataires-C9G8iFS9.js","assets/prestataires-_Ah07LHg.js","assets/Prets-BpHIQFJL.js","assets/promos-B_CSfs5R.js","assets/protocoles-BvgWwmgI.js","assets/purify.es-BwoZCkIS.js","assets/qrcode-QMPRWlhW.js","assets/QrCodes-C0i7i4fE.js","assets/quiz-M3wxluxi.js","assets/Rapport-D3i6XTYz.js","assets/RattacherUneCarte-DiAMhvan.js","assets/Recommandations-CTnGnNM6.js","assets/SalonFoyer-mn8pqXrX.js","assets/Synthese-FsbD1t8x.js","assets/systeme-C3XFIa8E.css","assets/Tableau-CVKkqOnh.js","assets/Textes-BzXUpgUO.js","assets/Textes-DLpOzRbT.css","assets/tiroirs-BNUMG0G-.js","assets/trone-B0X1eme5.js","assets/trone-C5-dn5jj.css","assets/ui-DXDC-uNf.js","assets/vente-D0kdELDn.css","assets/Vitrine-CwjzuYQI.js","assets/_contrat-Cb6dW5sS.js","assets/_heures-BUobF727.js","assets/_shared-D-JcOfuN.js","assets/_signature-9R6uohZt.js"];
+const BUILD = "20261004133050";
+const A_GARDER = ["./","assets/abonnements-Cyl5F-qd.js","assets/Abonnements-tf0pU6Xu.js","assets/Academie-B9ZSgsjV.js","assets/Acces-Ce3heqdn.js","assets/actions-CvtcgIK9.js","assets/AFaire-Cav40NX2.js","assets/afaire-CVJA-3Py.js","assets/Analytics-bDEECcwQ.js","assets/Appels-C5WH2t9b.js","assets/arrivee-pure-DULmgjT7.js","assets/asset-C3YTuUEK.js","assets/bilan-B-bfPYR0.css","assets/bilan-DwYkZNC3.js","assets/BilanMensuel-DQ1ziIM1.js","assets/bilans-CbLVcTj_.js","assets/Branches-Fdwhe-cC.js","assets/bridges-CnmuDuDZ.js","assets/Caisse-Csgj2LxP.js","assets/caisse-du-soir-Dz7RpGM0.js","assets/Caisses-CXP_zvIf.js","assets/Calendrier-BI-RqBuA.js","assets/Carnet-DgSrQKj7.js","assets/carte-CXapndDr.css","assets/carte-jHuKObY5.js","assets/CarteModal-6Olrocuq.js","assets/CartesCadeaux-B-4I4y99.js","assets/Catalogue-CSjVl8sW.js","assets/Cercle-CxmKtfph.js","assets/certificat-BIgsKAOa.css","assets/certificat-m8nllPN7.js","assets/certificats-coffre-BAuSdTqS.js","assets/ClotureDuTiroir-C6vPx-E_.css","assets/ClotureDuTiroir-CBwOSvua.js","assets/Coffre-CB9uVh2b.js","assets/components-E4SdxRgU.js","assets/compte-BPu96qMt.js","assets/compte-courant-ByzulCEN.js","assets/CompteCourant-BTgkRPu3.js","assets/Comptes-ibHmX6gV.js","assets/Comptoir-DGnw2PsY.js","assets/consultation-Dgb9KeZx.css","assets/consultation-DugSlv2O.js","assets/Consultations-CmtiSVcf.js","assets/consultNotes-GBX8SZtk.js","assets/Conversations-C01vOgVJ.js","assets/cormorant-italique-latin-C-nL33vl.woff2","assets/cormorant-italique-latin-ext-PWzi_-0y.woff2","assets/cormorant-latin-CUoBjw-S.woff2","assets/cormorant-latin-ext-ltf1AbuM.woff2","assets/Creances-EQ-9DpOG.js","assets/currency-CzN07T4P.js","assets/Customers-I25mn6xN.js","assets/Dashboard-gPyD-9FC.js","assets/dates-CjHoLNgz.js","assets/Demandes-bj15OcI-.js","assets/Depenses-BGyQ3iu9.js","assets/devise-fon-DX3P0bG4.woff2","assets/Encaissements-BYYH3MG-.js","assets/enfants-DbbUBAZA.js","assets/Engagements-BqdqqofB.js","assets/Engagements-Cj5S9MhG.css","assets/equipe-DpPyq6h-.css","assets/Evaluation-D27TP00U.js","assets/FacturePrestataire-B6Tciefk.js","assets/Factures-TY5ZWroz.js","assets/Fil-BrnWvHZq.js","assets/finances-CCjqAkCE.css","assets/Fournisseurs-BNxX84yr.js","assets/fournisseurs-i_CYajrr.js","assets/foyer-CIrpUmRj.js","assets/HomeRituals-CSfynsvG.js","assets/html2canvas.esm-QH1iLAAe.js","assets/identite-DY4U6BNF.js","assets/index.es-xpA6O2yz.js","assets/jost-latin-ext-BDUtSsKd.woff2","assets/jost-latin-ObQm3Zd1.woff2","assets/Journal-1AAdSFT3.js","assets/jspdf.es.min-CtpUDcTP.js","assets/JustePrix-CYRAEtX9.js","assets/kkiapay-CLGsUjBN.js","assets/laboratoire-C7IsrLbq.js","assets/Laboratoire-Dq5KGzdL.js","assets/LettresAuDossier-DCuxs-GC.js","assets/maisons-DZdAeMF9.js","assets/Marketing-DZRAr9Ot.js","assets/Marque-DBG9MUHt.js","assets/momo-C2ZVfV9J.js","assets/MonMois-CtPWx88E.js","assets/monograms/mono-argile.png","assets/monograms/mono-copper.png","assets/monograms/mono-indigo-profond.png","assets/monograms/mono-indigo.png","assets/monograms/mono-ivoire.png","assets/monograms/mono-obsidian.png","assets/monograms/mono-or.png","assets/monograms/mono-sable.png","assets/objectifs-BrFXk8qX.js","assets/paliers-BpUddAAZ.js","assets/Parametres-B4bFbDzr.js","assets/parcours-Cdoe2gTr.js","assets/Parrainages-BtxvJ_mG.css","assets/Parrainages-hO6ZBGIO.js","assets/pdf-D35bxgG-.js","assets/Personas-RD7LvcEt.js","assets/Personnel-MfwIZnRN.js","assets/photo-CDtw81SZ.js","assets/pilotage-CV1tnUgC.css","assets/Predictions-L3Q68POl.js","assets/Prestataires-DSaboSgQ.js","assets/prestataires-ff6eC3b8.js","assets/Prets-BEok3mOW.js","assets/promos-hednkrMo.js","assets/protocoles-yXt68uCJ.js","assets/purify.es-BwoZCkIS.js","assets/qrcode-QMPRWlhW.js","assets/QrCodes-C6Zs9eXp.js","assets/quiz-M3wxluxi.js","assets/Rapport-BLT6sKmR.js","assets/RattacherUneCarte-DmRIz8gM.js","assets/Recommandations-Vg9RUU4b.js","assets/SalonFoyer-BgVQuqQI.js","assets/Synthese-C7p10gw6.js","assets/systeme-C3XFIa8E.css","assets/Tableau-COYqplGo.js","assets/Textes-DLpOzRbT.css","assets/Textes-Dm8YmPIG.js","assets/tiroirs-CcJrbbHc.js","assets/trone-C5-dn5jj.css","assets/trone-DtGa36Ul.js","assets/ui-1QsueSzq.js","assets/vente-D0kdELDn.css","assets/Vitrine-B7qeG5iH.js","assets/_contrat-BKVKwEea.js","assets/_heures-DAGX06a2.js","assets/_shared-BO4kmgAL.js","assets/_signature-D7r36yGg.js"];
 const ACTIF = !BUILD.startsWith('__');
 const CACHE_APP = `mnd-app-${BUILD}`;
 const CACHE_IMAGES = 'mnd-images';
@@ -33,16 +33,37 @@ const portee = () => self.registration.scope;
 self.addEventListener('install', (event) => {
   self.skipWaiting();
   if (!ACTIF) return;
-  /* Fichier par fichier : un seul absent ne doit pas tout faire échouer. */
-  event.waitUntil(caches.open(CACHE_APP).then((c) => Promise.allSettled(
-    A_GARDER.map((u) => c.add(new Request(new URL(u, portee()).href, { cache: 'reload' }))),
-  )));
+  /* UNE VERSION ENTIÈRE OU PAS DU TOUT — 4 octobre 2026. « Analytics ne
+     s'ouvre pas hors ligne » (Yéman) : une copie à trous ne doit jamais
+     remplacer une copie entière. Un seul fichier manqué (réseau coupé pendant
+     l'installation) et cette version renonce ; l'ancienne reste en service,
+     le navigateur réessaiera à la prochaine ouverture. */
+  event.waitUntil((async () => {
+    const c = await caches.open(CACHE_APP);
+    const r = await Promise.allSettled(
+      A_GARDER.map((u) => c.add(new Request(new URL(u, portee()).href, { cache: 'reload' }))),
+    );
+    if (r.some((x) => x.status === 'rejected')) {
+      await caches.delete(CACHE_APP);
+      throw new Error('copie incomplète, la version en place reste');
+    }
+  })());
 });
 
+/* LES DEUX VERSIONS D'AVANT RESTENT — 4 octobre 2026. Un Trône ouvert AVANT
+   une mise en ligne continue de demander les fichiers de SA version pour les
+   écrans qu'il n'a pas encore ouverts (Analytics) ; les effacer à l'instant où
+   la nouvelle s'installe le laissait, hors ligne, sur « Unexpected error ».
+   `caches.match` cherche dans toutes les copies : on garde les deux plus
+   récentes en plus de celle-ci, les plus anciennes s'effacent. */
+const VERSIONS_GARDEES = 2;
 self.addEventListener('activate', (event) => event.waitUntil((async () => {
   if (ACTIF) {
-    const noms = await caches.keys();
-    await Promise.all(noms.filter((n) => n.startsWith('mnd-app-') && n !== CACHE_APP).map((n) => caches.delete(n)));
+    const autres = (await caches.keys())
+      .filter((n) => n.startsWith('mnd-app-') && n !== CACHE_APP)
+      .sort()
+      .reverse();
+    await Promise.all(autres.slice(VERSIONS_GARDEES).map((n) => caches.delete(n)));
   }
   await self.clients.claim();
 })()));
@@ -66,8 +87,17 @@ self.addEventListener('fetch', (event) => {
       try {
         const r = await avecDelai(fetch(req), DELAI_PAGE_MS);
         if (r.ok && url.pathname === new URL(page).pathname) {
-          const c = await caches.open(CACHE_APP);
-          void c.put(page, r.clone());
+          /* LA PAGE NE SE GARDE QU'AVEC SON CODE (4 octobre 2026). Une page
+             d'une version plus neuve que ce service appelle des fichiers
+             qu'il n'a pas : la garder, c'était rouvrir hors ligne une page
+             sans ses écrans. On la reconnaît à son script d'entrée. */
+          const copie = r.clone();
+          void copie.text().then(async (html) => {
+            const entree = html.match(/assets\/[^"'?#\s]+\.js/);
+            if (entree && !A_GARDER.includes(entree[0])) return;
+            const c = await caches.open(CACHE_APP);
+            await c.put(page, new Response(html, { headers: copie.headers }));
+          }).catch(() => {});
         }
         return r;
       } catch (_e) {
