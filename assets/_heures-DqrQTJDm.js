@@ -1,1 +1,0 @@
-import{a4 as n}from"./trone-DDJo-ATs.js";const t=["dim","lun","mar","mer","jeu","ven","sam"],a=()=>{const e=n.get()[t[new Date().getDay()]];if(!e)return[void 0,void 0];if(e.closed)return["23:59","00:00"];const o=r=>r.replace(/h/i,":").replace(/^(\d):/,"0$1:");return[o(e.open),o(e.close)]};export{a as h};
