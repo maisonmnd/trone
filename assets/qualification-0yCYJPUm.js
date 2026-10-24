@@ -1,1 +1,0 @@
-import{q as n,v as o,w as i,C as a}from"./abonnements-hvOn0jzc.js";function u(e,t){var r;return e.consultationAvant===!0||n(e)||o(e)==="devis"?!0:((r=i(t,e.categoryId))==null?void 0:r.id)===a}const f=(e,t)=>u(e,t)?"consultation":"directe";export{u as e,f as p};
