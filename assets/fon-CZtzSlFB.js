@@ -1,1 +1,0 @@
-import{j as o,r as t}from"./client-BQTDOqI2.js";import{m as s}from"./fon-pur-CgVkbJ8O.js";function c({texte:n,penche:e}){return o.jsx(o.Fragment,{children:s(n).map((r,a)=>r.oa?o.jsx("span",{className:e?"fon-oa fon-oa--penche":"fon-oa",children:r.t},a):o.jsx(t.Fragment,{children:r.t},a))})}export{c as T};
