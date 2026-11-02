@@ -1,0 +1,1 @@
+function r(n,t){const e=(n??"").trim();return e?!t||t<=0||!/montant/i.test(e)?e:e.replace(/montant/gi,String(Math.round(t))):""}const i=n=>{const t=(n??"").trim();return t!==""&&!/^https?:\/\//i.test(t)};export{i as e,r as u};
