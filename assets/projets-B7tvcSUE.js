@@ -1,0 +1,1 @@
+import{u as t,c as e}from"./auth-7q1kfjEr.js";import{b as r}from"./identite-DSTvzK6Y.js";const o=e("mnd_projets",[]),p=()=>t(o);r(o,"mnd_projets");export{o as p,p as u};
