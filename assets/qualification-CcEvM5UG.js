@@ -1,0 +1,1 @@
+import{f as n,p as o,r as i,C as a}from"./abonnements-DMsd9SQ9.js";function u(e,r){var t;return e.consultationAvant===!0||n(e)||o(e)==="devis"?!0:((t=i(r,e.categoryId))==null?void 0:t.id)===a}const c=(e,r)=>u(e,r)?"consultation":"directe";export{u as e,c as p};
