@@ -1,1 +1,0 @@
-import{u as o,c as e}from"./auth-BJrfCiDF.js";import{b as t}from"./identite-GThivR67.js";import{b_ as s,b$ as m}from"./trone-D5P1tf1l.js";const a=e("mnd_opale",s),n=()=>o(a);t(a,m);const p=e("mnd_opale_compte",{}),l=()=>o(p);t(p,"mnd_opale_compte");export{l as a,a as o,n as u};
